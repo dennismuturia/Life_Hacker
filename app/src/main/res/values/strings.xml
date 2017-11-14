@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">IBM Chat system</string>
-    <string name="share_something">Share anything with me</string>
+    <string name="share">Share anything with me that you feel </string>
 </resources>
