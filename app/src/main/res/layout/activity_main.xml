@@ -25,13 +25,17 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <EditText
+            android:id="@+id/myEditText"
             style="@style/AppTheme"
-            android:layout_width="wrap_content"
+            android:layout_width="290sp"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:id="@+id/myEditText"
-            android:text="@string/share" />
+            android:hint="@string/share"
+            android:layout_marginBottom="5sp"
+            android:layout_marginRight="10sp"
+
+            />
 
         <ImageButton
             android:id="@+id/sendButton"
